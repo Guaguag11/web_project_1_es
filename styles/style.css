@@ -6,13 +6,14 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  width: 100vh;
   /* parameters for the header section */
 }
 
