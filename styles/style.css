@@ -15,7 +15,7 @@
   max-height: 756px;
   display: flex;
   background-color: #f2f2f2;
-  background-size: cover;
+
   /* parameters for the header section */
 }
 
@@ -25,10 +25,7 @@
   margin-top: 64px;
   height: 568px;
   width: 568px;
-  position: relative;
-  display: flex;
   background-color: #2f80ed;
-  justify-content: end;
   z-index: 1;
 }
 
@@ -50,6 +47,7 @@
 .header__title {
   /*por qué está en 3 renglones y tmb lo de altura de la linea que es eso*/
   width: 730px;
+  display: flex;
   margin-left: 64px;
   z-index: 1;
   align-self: center;
@@ -70,14 +68,12 @@
   font-weight: normal;
 }
 
-.header__main-illustration {
-  /*no se si esta acomodado abajo y a la derecha */
-  position: relative;
+.header___main-illustration {
+  /*no se si está acomodado abajo y a la derecha */
+  position: absolute;
   height: 608px;
   width: 756px;
-  display: flex;
-  align-self: end;
-  justify-self: end;
+  z-index: 1;
 }
 
 /* including elements with key-value modifiers */
@@ -89,11 +85,57 @@
 }
 
 .description {
+  /*como poner las lineas grises arriba y abajo*/
   display: flex;
 }
 
 .two-columns {
+  display: flex;
   width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
+  min-width: 784px;
+}
+
+.two-columns__brief {
+  width: 175px;
+  padding-left: 13px;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+}
+
+.two-columns__brief {
+  color: #2f80ed;
+  width: 175px;
+  align-self: flex-start;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  justify-content: space-between;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-name {
+  display: flex;
+}
+
+.description {
+  border-style: dotted;
 }
