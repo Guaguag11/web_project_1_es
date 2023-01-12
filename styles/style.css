@@ -9,6 +9,10 @@
   font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 
+.body {
+  background-color: #f2f2f2;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -19,8 +23,10 @@
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  /*por qué aquí no me sale mi cuadrado*/
+.header__square {
+  /*cómo muevo mi cuadrado a la derecha y que no tape el illustration*/
+  position: absolute;
+  top: 64px;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -43,12 +49,16 @@
   width: 154px;
 }
 
+.logo_place_header {
+  height: 31px;
+  width: 154px;
+}
+
 .header__title {
   /*por qué está en 3 renglones y tmb lo de altura de la linea que es eso*/
   width: 730px;
-  display: flex;
   margin-left: 64px;
-  z-index: 2;
+  z-index: 1;
   align-self: center;
   bottom: 96px;
   font-size: 102px;
@@ -61,13 +71,15 @@
   z-index: 1;
   width: 388px;
   left: 64px;
-  bottom: 30px;
+  bottom: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .header__main-illustration {
+  /*por qué tiene un fondo blanco*/
   position: absolute;
   height: 608px;
   width: 756px;
+  z-index: 1;
 }
