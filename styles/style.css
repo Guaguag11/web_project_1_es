@@ -9,27 +9,75 @@
   font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 
-.body {
-  background-color: #f2f2f2;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  width: 100vh;
   display: flex;
+  background-color: #f2f2f2;
+  background-size: cover;
   /* parameters for the header section */
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square {
+.header__square-pic {
   /*cómo muevo mi cuadrado a la derecha y que no tape el illustration*/
-  position: absolute;
-  top: 64px;
+  margin-top: 64px;
   height: 568px;
   width: 568px;
+  position: relative;
+  display: flex;
   background-color: #2f80ed;
+  justify-content: end;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  z-index: 0;
+  top: 30px;
+  left: 64px;
+  height: 31px;
+  width: 154px;
+}
+
+.logo_place_header {
+  height: 31px;
+  width: 154px;
+  z-index: 1;
+}
+
+.header__title {
+  /*por qué está en 3 renglones y tmb lo de altura de la linea que es eso*/
+  width: 730px;
+  margin-left: 64px;
+  z-index: 1;
+  align-self: center;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  /*qué es altura de la linea*/
+  position: absolute;
+  z-index: 1;
+  width: 388px;
+  left: 64px;
+  line-height: 25px;
+  bottom: 25px; /*al poner altura de la linea se hace para arriba pero si le pongo bottom 25 se acomoda bien , esto pasó*/
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  /*no se si esta acomodado abajo y a la derecha */
+  position: relative;
+  height: 608px;
+  width: 756px;
+  display: flex;
+  align-self: end;
+  justify-self: end;
 }
 
 /* including elements with key-value modifiers */
@@ -40,46 +88,12 @@
   margin-top: 80px;
 }
 
-.logo {
-  position: absolute;
-  z-index: 1;
-  top: 30px;
-  left: 64px;
-  height: 31px;
-  width: 154px;
+.description {
+  display: flex;
 }
 
-.logo_place_header {
-  height: 31px;
-  width: 154px;
-}
-
-.header__title {
-  /*por qué está en 3 renglones y tmb lo de altura de la linea que es eso*/
-  width: 730px;
-  margin-left: 64px;
-  z-index: 1;
-  align-self: center;
-  bottom: 96px;
-  font-size: 102px;
-  font-weight: bold;
-}
-
-.header__subtitle {
-  /*por qué veo tan grande estas letras*/
-  position: absolute;
-  z-index: 1;
-  width: 388px;
-  left: 64px;
-  bottom: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.header__main-illustration {
-  /*por qué tiene un fondo blanco*/
-  position: absolute;
-  height: 608px;
-  width: 756px;
-  z-index: 1;
+.two-columns {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
