@@ -19,14 +19,31 @@
   /* parameters for the header section */
 }
 
+.header-container {
+  display: flex;
+}
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
-  /*cómo muevo mi cuadrado a la derecha y que no tape el illustration*/
+  /*cómo acomodo mi cuadro dentro de header*/
   margin-top: 64px;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
+  position: absolute;
+  right: 0px;
+}
+
+.header___main-illustration {
+  /*no se si está acomodado abajo y a la derecha */
+  height: 608px;
+  width: 756px;
+  z-index: 1;
+}
+
+.header-name {
+  display: flex;
 }
 
 .logo {
@@ -45,7 +62,6 @@
 }
 
 .header__title {
-  /*por qué está en 3 renglones y tmb lo de altura de la linea que es eso*/
   width: 730px;
   display: flex;
   margin-left: 64px;
@@ -57,23 +73,14 @@
 }
 
 .header__subtitle {
-  /*qué es altura de la linea*/
   position: absolute;
   z-index: 1;
   width: 388px;
   left: 64px;
   line-height: 25px;
-  bottom: 25px; /*al poner altura de la linea se hace para arriba pero si le pongo bottom 25 se acomoda bien , esto pasó*/
+  bottom: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.header___main-illustration {
-  /*no se si está acomodado abajo y a la derecha */
-  position: absolute;
-  height: 608px;
-  width: 756px;
-  z-index: 1;
 }
 
 /* including elements with key-value modifiers */
@@ -83,26 +90,14 @@
   margin-right: 0;
   margin-top: 80px;
 }
+/*AQUI EMPIEZA DESCRIPTION*/
 
-.description {
-  /*como poner las lineas grises arriba y abajo*/
+.description__two-columns {
   display: flex;
-}
-
-.two-columns {
-  display: flex;
+  border-style: dotted;
   width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
-  min-width: 784px;
-}
-
-.two-columns__brief {
-  width: 175px;
-  padding-left: 13px;
-}
-
-.two-columns__main-text {
   min-width: 784px;
 }
 
@@ -120,22 +115,11 @@
   font-size: 24px;
   font-weight: normal;
   justify-content: space-between;
+  min-width: 784px;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-}
-
-.header-container {
-  display: flex;
-}
-
-.header-name {
-  display: flex;
-}
-
-.description {
-  border-style: dotted;
 }
