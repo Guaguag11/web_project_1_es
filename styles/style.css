@@ -21,6 +21,7 @@
 
 .header-container {
   display: flex;
+  align-items: flex-end;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -40,6 +41,8 @@
   height: 608px;
   width: 756px;
   z-index: 1;
+  right: 0;
+  position: absolute;
 }
 
 .header-name {
@@ -99,6 +102,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
   min-width: 784px;
+  gap: 30px;
 }
 
 .two-columns__brief {
@@ -108,6 +112,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  padding: 50px;
 }
 
 .two-columns__main-text {
