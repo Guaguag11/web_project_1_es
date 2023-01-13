@@ -104,9 +104,8 @@
   display: flex;
   width: 80%;
   min-width: 784px;
-  gap: 30px;
-  padding-left: 100px;
-  border: #2f80ed solid;
+  gap: 50px;
+  padding-left: 150px;
 }
 
 .two-columns__brief {
@@ -114,12 +113,10 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-right: 10px;
-  width: 175px;
+  width: 1000px;
 }
 
 .two-columns__main-text {
-  padding-left: 40px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -135,4 +132,35 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+/*me falta hacer lo de 30px de espacio entre paragraphs*/
+
+/*AQUI EMPIEZA DIGITS*/
+.digits {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.digits-header {
+  width: 60%;
+  border: #2f80ed solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.section__subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 60px;
 }
