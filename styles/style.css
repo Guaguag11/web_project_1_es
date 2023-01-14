@@ -138,7 +138,6 @@
 
 /*AQUI EMPIEZA DIGITS*/
 .digits {
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
 }
@@ -154,14 +153,14 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .digits-header__subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 /*NO ENTIENDO COMO HACER LA TABLE*/
@@ -169,6 +168,30 @@
   list-style: none;
   width: 1100px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.table__cell__top {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.table__cell__bottom {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+
+.table__cell__properties {
+  width: 250px;
+}
+
+.table__text__span-accent {
+  display: flex;
+  margin-top: 20px;
 }
 
 .table__heading {
@@ -180,7 +203,6 @@
 }
 
 .table__text {
-  padding-top: 20px;
   list-style: none;
   line-height: 1.2;
   font-size: 18px;
