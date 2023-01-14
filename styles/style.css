@@ -86,13 +86,6 @@
   font-weight: normal;
 }
 
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 /*AQUI EMPIEZA DESCRIPTION*/
 
 .description {
@@ -163,7 +156,6 @@
   margin-bottom: 60px;
 }
 
-/*NO ENTIENDO COMO HACER LA TABLE*/
 .table__cell {
   list-style: none;
   width: 1100px;
@@ -171,6 +163,7 @@
   flex-direction: column;
   align-items: center;
   margin-left: 120px;
+  flex-wrap: wrap;
 }
 
 .table__cell__top {
@@ -210,7 +203,7 @@
   text-align: left;
 }
 
-/*EN PAUSA DIGITS Y EMPEZARE FEYMAN*/
+/*AQUI EMPIEZA FEYMAN*/
 
 .feynman {
   background-color: #f2f2f2;
@@ -254,6 +247,48 @@
   height: 637px;
   width: auto;
   padding-top: 150px;
+}
+/*KAUFMAN*/
+
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+}
+
+.section__tittle-theme-dark {
+  color: #f2f2f2;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: normal;
+  width: 60%;
+  text-align: center;
+  padding-left: 240px;
+  padding-bottom: 20px;
+}
+
+.section__subtitle-theme-dark {
+  color: #f2f2f2;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  text-align: center;
+  padding-left: 240px;
+}
+
+/* including elements with key-value modifiers */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  width: 636px;
+  height: 660px;
+  padding-left: 900px;
+  /*si le pongo position absolute como dice en el brief se sale del cuadro negro*/
 }
 
 /*FOOTER*/
