@@ -151,16 +151,82 @@
   align-items: center;
 }
 
-.section__title {
+.digits-header__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-.section__subtitle {
+.digits-header__subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   padding-bottom: 60px;
+}
+
+.table__cell {
+  list-style: none;
+  border: #2f80ed solid;
+  width: 1100px;
+}
+
+.table__heading {
+  list-style: none;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  list-style: none;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/*EN PAUSA DIGITS Y EMPEZARE FEYMAN*/
+
+.feynman {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 790px;
+}
+
+.feynman-header {
+  width: 1100px;
+  position: absolute;
+  text-align: center;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  padding-left: 370px;
+}
+
+.feynman__subtitle {
+  padding-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  padding-left: 370px;
+}
+
+.feynman__link {
+  display: flex;
+  align-items: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  padding-left: 400px; /*como mover sin padding left*/
+  text-decoration: none;
+}
+
+.feynman__image {
+  /*cómo muevo mi imagen a abajo sin padding*/
+  height: 637px;
+  width: auto;
+  padding-top: 150px;
 }
