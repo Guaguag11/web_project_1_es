@@ -246,8 +246,9 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  padding-left: 400px; /*como mover sin padding left*/
   text-decoration: none;
+
+  /*como mover sin padding left*/
 }
 
 .feynman__image {
@@ -265,6 +266,13 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 90px;
+  overflow: hidden;
+}
+
+.kaufman__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section__tittle-theme-dark {
@@ -287,17 +295,51 @@
 }
 
 /* including elements with key-value modifiers */
-.table__cell_theme_dark {
+.table__theme-dark {
+  width: 1100px;
+}
+
+.table__cell-properties {
+  text-decoration: none;
+  list-style: none;
+  color: #f2f2f2;
   width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+}
+
+.table__cell-theme-dark {
+  z-index: 1;
+}
+
+.table__cell-theme-dark-top {
+  display: flex;
+  padding-top: 80px;
+}
+
+.table__cell-theme-dark-bottom {
+  display: flex;
+  padding-top: 80px;
+}
+
+.table__heading-theme-dark {
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.table__text-theme-dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .kaufman__triangle {
+  position: absolute;
   width: 636px;
   height: 660px;
-  padding-left: 900px;
+  right: -124px;
+  z-index: 0;
+
   /*si le pongo position absolute como dice en el brief se sale del cuadro negro*/
 }
 
