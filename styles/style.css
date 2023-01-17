@@ -213,8 +213,8 @@
   background-color: #f2f2f2;
   display: flex;
   height: 790px;
-  display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .feynman-header {
@@ -222,6 +222,7 @@
   position: absolute;
   text-align: center;
   flex-wrap: wrap;
+  z-index: 1;
 }
 
 .feynman__title {
@@ -251,14 +252,19 @@
   font-weight: normal;
   text-decoration: none;
   top: 50%;
+  position: absolute;
+  z-index: 1;
+  right: 48px;
 
   /*como mover sin padding left*/
 }
 
 .feynman__image {
-  /*cómo muevo mi imagen a abajo sin padding*/
+  position: absolute;
+  left: -5px;
   height: 637px;
   width: 867px;
+  z-index: 0;
 }
 /*KAUFMAN*/
 
@@ -269,6 +275,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 90px;
+  position: relative;
   overflow: hidden;
 }
 
@@ -378,12 +385,6 @@
   color: #f2f2f2;
 }
 
-.column-heading {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
 .footer__list {
   line-height: 30px;
   font-size: 18px;
@@ -392,6 +393,8 @@
   display: flex;
   flex-direction: column;
   color: #f2f2f2;
+  padding: 0%;
+  padding-top: 0%;
 }
 
 .footer__column_content-about-social {
@@ -405,25 +408,31 @@
   color: #f2f2f2;
 }
 
-.footer__column_content_social_facebook {
+.social-icons-facebook {
   width: 16px;
   height: 16px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
-.lumn_contefooter__cont_social_instagram {
+.social-icons-instagram {
   width: 16px;
   height: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .column-heading {
-  display: flex;
-  justify-content: end;
   line-height: 30px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
-  gap: 60px;
   color: #f2f2f2;
   margin-bottom: 20px;
+}
+
+.footer__column-link {
+  width: 120px;
 }
 
 /*VOY A HACERLO POR FILAS Y A CADA GASP LE DARE EL TITULO Y ESAS COSAS, LINEAS VERTICALES*/
