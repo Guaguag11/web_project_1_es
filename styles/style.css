@@ -33,7 +33,6 @@
 .header___main-illustration {
   height: 608px;
   width: 756px;
-  z-index: 1;
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -436,4 +435,9 @@
 
 .footer__column-link {
   width: 120px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #f2f2f2;
 }
