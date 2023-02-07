@@ -9,6 +9,15 @@
   font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -16,12 +25,18 @@
   display: flex;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
 
   /* parameters for the header section */
 }
 
 .header__link {
   color: #2f80ed;
+}
+
+/*QUE HAGO AQUI SOOOOOS AYUDAAAAAA*/
+.header__link:hover {
+  transition: opacity 0.5 2s linear;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -32,6 +47,8 @@
   background-color: #2f80ed;
   position: absolute;
   right: 6px;
+  transform: rotate(15deg);
+  animation: rotation 20s linear infinite;
 }
 
 .header___main-illustration {
