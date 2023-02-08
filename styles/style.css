@@ -32,12 +32,11 @@
 
 .header__link {
   color: #2f80ed;
-  transition-property: opacity(0) 0.3 ease;
+  opacity: 1;
 }
 
-/*QUE HAGO AQUI SOOOOOS AYUDAAAAAA*/
 .header__link:hover {
-  opacity: (1);
+  opacity: 0.5;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -200,6 +199,8 @@
 .video {
   background-color: #f2f2f2;
 }
+/*SOOOOOOS*/
+/*AQUI TENGO QUE HACER LO DE DEGRADADO DE 1 A 50 Y DE 50 A 100*/
 
 .video-container {
   display: flex;
@@ -355,6 +356,12 @@
   position: absolute;
   z-index: 1;
   right: 48px;
+  opacity: 1;
+  color: #2f80ed;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .feynman__image {
@@ -540,4 +547,9 @@
 .footer__link {
   text-decoration: none;
   color: #f2f2f2;
+  opacity: 1;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
