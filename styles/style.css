@@ -197,7 +197,7 @@
 /*AQUI EMPIEZA VIDEO*/
 
 .video {
-  background-color: #f2f2f2;
+  background-image: linear-gradient(white 50%, #f2f2f2 50%);
 }
 /*SOOOOOOS*/
 /*AQUI TENGO QUE HACER LO DE DEGRADADO DE 1 A 50 Y DE 50 A 100*/
@@ -221,6 +221,78 @@
   align-items: baseline;
   display: flex;
   justify-content: center;
+}
+
+/*AQUI EMPIEZA KHAN*/
+
+.khan {
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 0%;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0%;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  padding-bottom: 36px;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 68px;
+  margin-top: 0;
+}
+
+.khan__book-container {
+  display: flex;
+  gap: 48px;
+}
+
+.book-pic {
+  height: 620px;
+  width: 608px;
+}
+
+.buy-link {
+  color: #2f80ed;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  opacity: 1;
+}
+
+.buy-link:hover {
+  opacity: 0.5;
 }
 
 /*AQUI EMPIEZA DIGITS*/
