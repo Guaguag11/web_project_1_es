@@ -1,17 +1,17 @@
 /* aqui tengo que importar todooooo */
-@import url(./pages/index.css);
+@import url(./blocks/page.css);
 
 /*aqui empieza header*/
 
-@import url(./blocks/header/header.css);
-@import url(./blocks/header/__link/.header__link.css);
-@import url(./blocks/header/__square-pic/header__square-pic.css);
-@import url(./blocks/header/__main-illustration/.header___main-illustration.css);
-@import url(./blocks/header/__subtitle/header__subtitle.css);
-@import url(./blocks/header/__title/header__title.css);
-@import url(./blocks/header/-name/header-name.css);
-@import url(./blocks/header/logo/logo.css);
-@import url(./blocks/header/logo/_place_header/.logo_place_header);
+@import url(./blocks./header./header.css);
+@import url(./blocks./header./__link/header__link.css);
+@import url(./blocks/.header./__square-pic/header__square-pic.css);
+@import url(./blocks/.header./__main-illustration/header___main-illustration.css);
+@import url(./blocks/.header./__subtitle/header__subtitle.css);
+@import url(./blocks/.header./__title/header__title.css);
+@import url(./blocks/.header./-name/header-name.css);
+@import url(./blocks/.header./logo/logo.css);
+@import url(./blocks/.header./logo/_place_header/logo_place_header);
 
 /*aqui empieza description*/
 
@@ -28,7 +28,7 @@
 @import url(./blocks/techniques/technique.css);
 @import url(./blocks/techniques/cards/cards.css);
 @import url(./blocks/techniques/cards/__title/cards__title.css);
-@import url(./blocks/techniques/cards/__description/.cards__description.css);
+@import url(./blocks/techniques/cards/__description/cards__description.css);
 @import url(./blocks/techniques/cards/__image/cards__image.css);
 @import url(./blocks/techniques/cards/-bottom/cards-bottom.css);
 @import url(./blocks/techniques/cards/-top/cards-top.css);
