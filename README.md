@@ -8,7 +8,7 @@ contiene técnicas de aprendizaje eficacez y avanzadas
 incluyendo historia sobre la educación, estrategias,
 videos sobre ciertos temas de ayuda, técnicas de ciertas
 personas, datos, información sobre un libro útil, recursos
-útiles entre muchas otras cosas. 
+útiles, entre muchas otras cosas. 
 
 En este proyecto puedes encontrar, links que te redirigen
 a otras páginas de internet con información útil. 
