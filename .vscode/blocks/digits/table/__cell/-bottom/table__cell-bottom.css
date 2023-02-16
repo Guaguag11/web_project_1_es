@@ -1,0 +1,5 @@
+.table__cell-bottom {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 100px;
+}

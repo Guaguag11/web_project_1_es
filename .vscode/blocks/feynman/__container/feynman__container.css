@@ -1,0 +1,5 @@
+.feynman__container {
+  display: flex;
+  align-items: flex-end;
+  left: 0;
+}

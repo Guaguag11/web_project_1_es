@@ -1,0 +1,5 @@
+.two-columns-container {
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+}
