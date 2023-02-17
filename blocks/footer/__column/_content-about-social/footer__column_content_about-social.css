@@ -1,4 +1,4 @@
 .footer__column_content-about-social {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
