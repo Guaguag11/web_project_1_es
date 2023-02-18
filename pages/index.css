@@ -87,13 +87,13 @@
 @import url(../blocks/kaufman/__header/kaufman__header.css);
 @import url(../blocks/kaufman/__title/-theme-dark/kaufman__title-theme-dark.css);
 @import url(../blocks/kaufman/__subtitle/-theme-dark/kaufman__subtitle-theme-dark.css);
-@import url(../blocks/kaufman/table/__theme-dark/table__theme-dark.css);
-@import url(../blocks/kaufman/table/__cell/-properties/table__cell-properties.css);
-@import url(../blocks/kaufman/table/__cell/-theme-dark/table__cell-theme-dark.css);
-@import url(../blocks/kaufman/table/__cell/-theme-dark/-top/table__cell-theme-dark-top.css);
-@import url(../blocks/kaufman/table/__cell/-theme-dark/-bottom/table__cell-theme-dark-bottom.css);
-@import url(../blocks/kaufman/table/__heading/-theme.dark/table__heading-theme-dark.css);
-@import url(../blocks/kaufman/table/__text/-theme-dark/table__text-theme-dark.css);
+@import url(../blocks/kaufman/__theme-dark/kaufman__theme-dark.css);
+@import url(../blocks/kaufman/__cell/-properties/kaufman__cell-properties.css);
+@import url(../blocks/kaufman/__cell/-theme-dark/kaufman__cell-theme-dark.css);
+@import url(../blocks/kaufman/__cell/-theme-dark/-top/kaufman__cell-theme-dark-top.css);
+@import url(../blocks/kaufman/__cell/-theme-dark/-bottom/kaufman__cell-theme-dark-bottom.css);
+@import url(../blocks/kaufman/__heading/-theme-dark/kaufman__heading-theme-dark.css);
+@import url(../blocks/kaufman/__text/-theme-dark/kaufman__text-theme-dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /*aqui empieza resources*/
