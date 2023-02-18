@@ -85,8 +85,8 @@
 
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__header/kaufman__header.css);
-@import url(../blocks/kaufman/section/__title/-theme-dark/section__title-theme-dark.css);
-@import url(../blocks/kaufman/section/__subtitle/-theme-dark/section__subtitle-theme-dark.css);
+@import url(../blocks/kaufman/section/__title/_theme_dark/section__title_theme_dark.css);
+@import url(../blocks/kaufman/section/__subtitle/_theme_dark/section__subtitle_theme_dark.css);
 @import url(../blocks/kaufman/table/__theme-dark/table__theme-dark.css);
 @import url(../blocks/kaufman/table/__cell/-properties/table__cell-properties.css);
 @import url(../blocks/kaufman/table/__cell/-theme-dark/table__cell-theme-dark.css);
