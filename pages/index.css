@@ -106,11 +106,11 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
-@import url(../blocks/footer/logo/_place_footer/logo_place_footer.css);
+@import url(../blocks/footer/__column/-content-copyright/footer__column-content-copyright.css);
+@import url(../blocks/footer/__logo/-place/footer__logo-place.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__column/_content-about-social/footer__column_content_about-social.css);
+@import url(../blocks/footer/__column/_content-about-social/footer__column-content-about-social.css);
 @import url(../blocks/footer/social-icons/social-icons.css);
 @import url(../blocks/footer/social-icons/-facebook/social-icons-facebook.css);
 @import url(../blocks/footer/social-icons-instagram/social-icons-instagram.css);

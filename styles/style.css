@@ -569,14 +569,14 @@
   margin-bottom: 40px;
 }
 
-.footer__column_content_copyright {
+.footer__column-content-copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.logo_place_footer {
+.footer__logo-place {
   width: 183px;
   height: 35px;
 }
@@ -600,7 +600,7 @@
   padding-top: 0%;
 }
 
-.footer__column_content-about-social {
+.footer__column-content-about-social {
   display: flex;
   justify-content: space-between;
 }
