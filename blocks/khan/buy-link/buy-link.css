@@ -4,6 +4,7 @@
   font-size: 30px;
   font-weight: normal;
   opacity: 1;
+  text-decoration: none;
 }
 
 .buy-link:hover {

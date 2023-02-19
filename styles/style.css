@@ -107,7 +107,7 @@
   justify-content: center;
 }
 
-.two-columns {
+*/AQUI EMPIEZA TWO COLUMNS*/ .two-columns {
   display: flex;
   width: 80%;
   min-width: 784px;

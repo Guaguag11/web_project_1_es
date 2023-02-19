@@ -1,6 +1,7 @@
-.video-container {
+.video__container {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding-bottom: 160px;
+  padding-top: 100px;
 }

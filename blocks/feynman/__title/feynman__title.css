@@ -4,4 +4,6 @@
   font-weight: bold;
   width: 775px;
   padding-left: 210px; /*aquí le tuve que poner padding left*/
+  z-index: 1;
+  position: absolute;
 }
