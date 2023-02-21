@@ -4,13 +4,5 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  color: #f2f2f2;
   padding: 0%;
-  padding-top: 0%;
-  opacity: 1;
-  text-decoration: none;
-}
-
-.footer__column-list:hover {
-  opacity: 0.5;
 }

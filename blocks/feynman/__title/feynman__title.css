@@ -3,8 +3,7 @@
   font-size: 120px;
   font-weight: bold;
   width: 775px;
-  /*aquí le tuve que poner padding left*/
   z-index: 1;
-  position: absolute;
   text-align: center;
+  margin: 0;
 }

@@ -3,5 +3,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  position: absolute;
+  margin: 0;
+  z-index: 1;
 }
