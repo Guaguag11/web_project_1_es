@@ -99,7 +99,7 @@
   font-weight: normal;
 }
 
-/*AQUI EMPIEZA DESCRIPTION*/
+/*aqui empieza description*/
 
 .description {
   padding-top: 100px;
@@ -107,7 +107,8 @@
   justify-content: center;
 }
 
-*/AQUI EMPIEZA TWO COLUMNS*/ .two-columns {
+/*AQUI EMPIEZA TWO COLUMNS*/
+.two-columns {
   display: flex;
   width: 80%;
   min-width: 784px;
@@ -145,7 +146,7 @@
   font-weight: bold;
 }
 
-/*AQUI EMPIEZA TECHNIQUES*/
+/*aqui empieza techniques*/
 
 .techniques {
   padding-top: 100px;
@@ -195,7 +196,7 @@
   gap: 100px;
 }
 
-/*AQUI EMPIEZA VIDEO*/
+/*aqui empieza video*/
 
 .video {
   background-image: linear-gradient(white 50%, #f2f2f2 50%);
@@ -208,7 +209,7 @@
   padding-bottom: 160px;
 }
 
-/*AQUI EMPIEZA OAKLEY*/
+/*aqui empieza oakley*/
 
 .oakley {
   display: flex;
@@ -222,7 +223,7 @@
   justify-content: center;
 }
 
-/*AQUI EMPIEZA FEYMAN*/
+/*aqui empieza feynman*/
 
 .feynman {
   background-color: #f2f2f2;
@@ -286,7 +287,7 @@
   z-index: 0;
 }
 
-/*AQUI EMPIEZA DIGITS*/
+/*digits*/
 
 .digits {
   display: flex;
@@ -371,7 +372,7 @@
   text-align: left;
 }
 
-/*AQUI EMPIEZA KHAN*/
+/*khan*/
 
 .khan {
   background-color: rgb(242, 242, 242);
@@ -444,7 +445,7 @@
   opacity: 0.5;
 }
 
-/*KAUFMAN*/
+/*kaufman*/
 
 .kaufman {
   background-color: #1f1f1f;
@@ -534,7 +535,7 @@
   animation: rotation 20s linear infinite;
 }
 
-/*AQUI EMPIEZA RESOURCES*/
+/*resources*/
 
 .resources {
   padding-top: 100px;
@@ -555,7 +556,7 @@
   height: 38px;
 }
 
-/*FOOTER*/
+/*footer*/
 .footer {
   display: flex;
   justify-content: center;
