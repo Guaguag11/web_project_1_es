@@ -46,7 +46,6 @@
 /*aqui empieza oakley*/
 
 @import url(../blocks/oakley/oakley.css);
-@import url(../blocks/oakley/two-columns/-container/two-columns-container.css);
 
 /*aqui empieza feynman*/
 
@@ -118,10 +117,7 @@
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/-list/footer__column-list.css);
 @import url(../blocks/footer/__column/-list/-link/footer__column-list-link.css);
-@import url(../blocks/footer/__logo-place/footer__logo-place.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
-@import url(../blocks/footer/__social-icons/-facebook/footer__social-icons-facebook.css);
-@import url(../blocks/footer/__social-icons/-instagram/footer__social-icons-instagram.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place_footer/logo_place_footer.css);
