@@ -1,5 +1,5 @@
-.oakley {
+.video__iframes {
   display: flex;
   justify-content: center;
-  background-color: #f2f2f2;
+  gap: 20px;
 }
