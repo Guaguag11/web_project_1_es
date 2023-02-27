@@ -16,7 +16,7 @@
 /*aqui empieza description*/
 
 @import url(../blocks/description/description.css);
-@import url(../blocks/two-columns/span-accent/span-accent.css);
+@import url(../blocks/description/-span-accent/description-span-accent.css);
 
 /*aqui es two-colums*/
 
@@ -24,7 +24,6 @@
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /*aqui empieza techniques*/
 
@@ -59,6 +58,7 @@
 /*aqui empieza digits*/
 
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/-span-accent/digits-span-accent.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
