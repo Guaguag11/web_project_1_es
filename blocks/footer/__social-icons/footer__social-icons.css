@@ -1,7 +1,5 @@
 .footer__social-icons {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  height: 30px;
-  padding-right: 0px;
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
 }

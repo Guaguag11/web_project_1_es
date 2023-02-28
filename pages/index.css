@@ -1,6 +1,7 @@
 /* aqui tengo que importar todooooo */
 @import url(../blocks/page.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../pages/normalize.css);
 
 /*aqui empieza header*/
 
@@ -58,7 +59,6 @@
 /*aqui empieza digits*/
 
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/digits/-span-accent/digits-span-accent.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
@@ -90,7 +90,7 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/-theme-dark/section-subtitle-theme-dark.css);
 @import url(../blocks/table/table.css);
-@import url(../blocks/table/-theme-dark/table__theme-dark.css);
+@import url(../blocks/table/-theme-dark/table-theme-dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/-theme-dark/table__cell-theme-dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
